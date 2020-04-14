@@ -20,8 +20,8 @@ class Node(object):
         否则创建子节点列表再添加子节点到列表中。
         """
         if not hasattr(self, "_children"):
-            self._children = []
-        self._children.append(child)
+            self._children = set()
+        self._children.add(child)
 
     def getParent(self):
         r"""

@@ -1,16 +1,26 @@
 from openpyxl import load_workbook
 import json
+import os
 
 from .graph import RuleNode
 from .graph import SymptomNode
 from .graph import DiseaseNode
 from .graph import ComputableNode
-
+from .treatment import Treatment
 
 __author__ = "flyor"
 
+r"""
+该类主要的功能是封装整个模型，对外提供访问接口。
+"""
+
 
 class Graph(object):
+
+    diseaseFile = "resources/知识图谱-核心实体关系v1.3.xlsx"
+    symptomFile = "resources/知识图谱-核心实体关系v1.3.xlsx"
+    ruleFile = "resources/rule.json"
+
     def __init__(self):
         super().__init__()
 
@@ -23,6 +33,21 @@ class Graph(object):
 
         # 所有症状节点
         self._symptomMap = {}
+
+        # 治疗方案的给出对象
+        self._treatment = Treatment()
+
+        # 拿到当前脚本文件所在的目录
+        dirname = os.path.dirname(__file__)
+        diseaseFile = os.path.join(dirname, Graph.diseaseFile)
+        symptomFile = os.path.join(dirname, Graph.symptomFile)
+        ruleFile = os.path.join(dirname, Graph.ruleFile)
+
+        # 从资源文件夹中读取所有数据
+        self.readDisease(diseaseFile, "疾病-疾病关系")
+        self.readSymptom(symptomFile, "大症状-小症状关系")
+        self.readSymptom(symptomFile, "小症状-小症状关系")
+        self.readRule(ruleFile)
 
     def readDisease(self, file, sheetName):
         r"""
@@ -175,12 +200,20 @@ class Graph(object):
 
         return True
 
-    def getSyntheticalProbability(self, diseaseName):
+    def getSyntheticalProbability(self, s):
         r"""
-        返回患某一疾病的综合概率
+        返回患某一疾病或症状的综合概率，
+        如果没有找到该疾病或症状，则返回0
         """
-        disease = self._diseaseMap[diseaseName]
-        return disease.getSyntheticalProbability()
+        disease = self._diseaseMap.get(s, None)
+        if disease != None:
+            return disease.getSyntheticalProbability()
+        else:
+            symptom = self._symptomMap.get(s, None)
+            if symptom == None:
+                return 0
+            else:
+                return symptom.getSyntheticalProbability()
 
     def reset(self):
         r"""
@@ -190,3 +223,31 @@ class Graph(object):
             i.degree = SymptomNode.NORMAL_DEGREE
             i.negator = False
             i.probability = ComputableNode.K
+
+    def printTreatmentScheme(self, diseases):
+        r"""
+        打印建议的治疗方案
+        """
+
+        # 列表为空直接返回
+        if diseases == None or len(diseases) == 0:
+            return
+
+        # 获取整个列表疾病的概率值
+        arr = []
+        print("-------start---------")
+        for i in diseases:
+            arr.append(self.getSyntheticalProbability(i))
+            print("{0:　<16}{1:.4f}".format(i, arr[-1]))
+        print("--------end----------")
+
+        # 找出有可能患的疾病
+        index = 0
+        m = 0
+        for i, v in enumerate(arr):
+            if v > m:
+                m = v
+                index = i
+
+        # 打印该疾病的治疗方案
+        self._treatment.printScheme(diseases[index], self)

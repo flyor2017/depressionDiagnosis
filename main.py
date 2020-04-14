@@ -2,22 +2,9 @@ from project import Graph
 from project.graph import SymptomNode
 
 
-def printProbability(g, diseases):
-    print("-------start---------")
-    for i in diseases:
-        print("{0:　<16}{1:.4f}".format(i, g.getSyntheticalProbability(i)))
-    print("--------end----------")
-
-
 if __name__ == "__main__":
-    diseaseFile = "resources/知识图谱-核心实体关系v1.3.xlsx"
-    symptomFile = "resources/知识图谱-核心实体关系v1.3.xlsx"
-    ruleFile = "resources/rule.json"
+
     g = Graph()
-    g.readDisease(diseaseFile, "疾病-疾病关系")
-    g.readSymptom(symptomFile, "大症状-小症状关系")
-    g.readSymptom(symptomFile, "小症状-小症状关系")
-    g.readRule(ruleFile)
 
     # 需要查看的疾病列表
     arr = ["轻度抑郁发作", "轻度抑郁发作不伴躯体症状",
@@ -26,15 +13,21 @@ if __name__ == "__main__":
            "重度抑郁发作", "重度抑郁发作不伴精神病性症状",
            "重度抑郁发作伴有精神病性症状"]
 
+    # 设置某一症状的概率，程度，和描述该症状是否用了否定词
     g.setProbability("自卑", 0.7, SymptomNode.DEEP_DEGREE)
     g.setProbability("自责自罪", 0.6)
     g.setProbability("哭泣", 0.2, negator=True)
 
     # g.printGraph()
-    printProbability(g, arr)
 
+    # 打印建议的治疗方案
+    g.printTreatmentScheme(arr)
+
+    # 可以调用下面的方法获取具体某一疾病的概率值
+    # g.getSyntheticalProbability(diseaseName)
+
+    # 重置整个模型
     g.reset()
-    printProbability(g, arr)
 
     g.setProbability("哭泣", 0.6)
     g.setProbability("失去兴趣", 0.5)
@@ -44,4 +37,4 @@ if __name__ == "__main__":
     g.setProbability("自责", 0.77)
     g.setProbability("早醒", 0.57)
     # g.printGraph()
-    printProbability(g, arr)
+    g.printTreatmentScheme(arr)

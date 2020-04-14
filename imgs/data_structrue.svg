@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 data_structrue.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.25968in" height="6.97131in"
+		viewBox="0 0 378.697 501.935" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#008cd8;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#004b74;font-family:Franklin Gothic Demi;font-size:1.33333em}
+		.st3 {marker-end:url(#mrkr4-54);marker-start:url(#mrkr4-52);stroke:#008cd8;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st4 {fill:#008cd8;fill-opacity:1;stroke:#008cd8;stroke-opacity:1;stroke-width:0.090252707581227}
+		.st5 {marker-end:url(#mrkr4-116);stroke:#3dffb5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st6 {fill:#3dffb5;fill-opacity:1;stroke:#3dffb5;stroke-opacity:1;stroke-width:0.16556291390728}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-52" class="st4" v:arrowType="4" v:arrowSize="2" v:setback="20.72" refX="20.72" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(11.08) "/>
+		</marker>
+		<marker id="mrkr4-54" class="st4" v:arrowType="4" v:arrowSize="2" v:setback="22.16" refX="-22.16" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-11.08,-11.08) "/>
+		</marker>
+		<marker id="mrkr4-116" class="st6" v:arrowType="4" v:arrowSize="2" v:setback="12.08" refX="-12.08" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-6.04,-6.04) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(157.524,-434.223)">
+			<title>椭圆形</title>
+			<desc>ROOT</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="468.864" width="86.82" height="57.874"/>
+			<path d="M0 468.86 A49.6063 33.0709 0 0 1 99.21 468.86 A49.6063 33.0709 0 1 1 0 468.86 Z" class="st1"/>
+			<text x="30.21" y="473.66" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ROOT</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(37.0519,-351.546)">
+			<title>椭圆形.2</title>
+			<desc>Disease1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="17.15" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Disease1</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(157.524,-351.546)">
+			<title>椭圆形.3</title>
+			<desc>Disease2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="17.15" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Disease2</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(277.997,-351.546)">
+			<title>椭圆形.4</title>
+			<desc>Disease3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="17.15" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Disease3</text>		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(157.524,-183.829)">
+			<title>椭圆形.5</title>
+			<desc>Rule2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="28.93" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Rule2</text>		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" transform="translate(37.0519,-183.829)">
+			<title>椭圆形.6</title>
+			<desc>Rule1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="28.93" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Rule1</text>		</g>
+		<g id="shape7-19" v:mID="7" v:groupContext="shape" transform="translate(277.997,-183.829)">
+			<title>椭圆形.7</title>
+			<desc>Rule3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="28.93" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Rule3</text>		</g>
+		<g id="shape12-22" v:mID="12" v:groupContext="shape" transform="translate(242.564,-42.0972)">
+			<title>椭圆形.12</title>
+			<desc>Symptom2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="12.11" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Symptom2</text>		</g>
+		<g id="shape13-25" v:mID="13" v:groupContext="shape" transform="translate(37.0519,-98.7901)">
+			<title>椭圆形.13</title>
+			<desc>Symptom1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="12.11" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Symptom1</text>		</g>
+		<g id="shape14-28" v:mID="14" v:groupContext="shape" transform="translate(1.6188,-1.46721)">
+			<title>椭圆形.14</title>
+			<desc>Symptom3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="12.11" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Symptom3</text>		</g>
+		<g id="shape15-31" v:mID="15" v:groupContext="shape" transform="translate(37.0519,-268.869)">
+			<title>椭圆形.15</title>
+			<desc>Disease2-1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="10.4" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Disease2-1</text>		</g>
+		<g id="shape16-34" v:mID="16" v:groupContext="shape" transform="translate(157.524,-268.869)">
+			<title>椭圆形.16</title>
+			<desc>Disease2-2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="10.4" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Disease2-2</text>		</g>
+		<g id="shape17-37" v:mID="17" v:groupContext="shape" transform="translate(277.997,-268.869)">
+			<title>椭圆形.17</title>
+			<desc>Disease2-3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="10.4" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Disease2-3</text>		</g>
+		<g id="shape19-40" v:mID="19" v:groupContext="shape" transform="translate(157.524,-80.6011)">
+			<title>椭圆形.19</title>
+			<desc>Symptom5</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="12.11" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Symptom5</text>		</g>
+		<g id="shape20-43" v:mID="20" v:groupContext="shape" transform="translate(122.091,-1.46721)">
+			<title>椭圆形.20</title>
+			<desc>Symptom4</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="477.604" width="86.82" height="42.5787"/>
+			<path d="M0 477.6 A49.6063 24.3307 0 0 1 99.21 477.6 A49.6063 24.3307 0 0 1 0 477.6 Z" class="st1"/>
+			<text x="12.11" y="482.4" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Symptom4</text>		</g>
+		<g id="shape22-46" v:mID="22" v:groupContext="shape" v:layerMember="0" transform="translate(200.044,-434.223)">
+			<title>动态连接线</title>
+			<path d="M7.09 507.11 L7.09 507.47 L7.09 530.41" class="st3"/>
+		</g>
+		<g id="shape23-55" v:mID="23" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-434.223)">
+			<title>动态连接线.23</title>
+			<path d="M-4.99 503.34 L-5.33 503.44 L-115.14 534.44" class="st3"/>
+		</g>
+		<g id="shape24-62" v:mID="24" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-434.223)">
+			<title>动态连接线.24</title>
+			<path d="M4.99 503.34 L5.33 503.44 L115.14 534.44" class="st3"/>
+		</g>
+		<g id="shape25-69" v:mID="25" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-351.546)">
+			<title>动态连接线.25</title>
+			<path d="M-4.99 503.34 L-5.33 503.44 L-115.14 534.44" class="st3"/>
+		</g>
+		<g id="shape26-76" v:mID="26" v:groupContext="shape" v:layerMember="0" transform="translate(214.217,-351.546)">
+			<title>动态连接线.26</title>
+			<path d="M-7.09 507.11 L-7.09 507.47 L-7.09 530.41" class="st3"/>
+		</g>
+		<g id="shape27-83" v:mID="27" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-351.546)">
+			<title>动态连接线.27</title>
+			<path d="M4.99 503.34 L5.33 503.44 L115.14 534.44" class="st3"/>
+		</g>
+		<g id="shape28-90" v:mID="28" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-268.869)">
+			<title>动态连接线.28</title>
+			<path d="M-4.96 503.43 L-5.3 503.54 L-115.17 536.71" class="st3"/>
+		</g>
+		<g id="shape29-97" v:mID="29" v:groupContext="shape" v:layerMember="0" transform="translate(200.044,-268.869)">
+			<title>动态连接线.29</title>
+			<path d="M7.09 507.11 L7.09 507.47 L7.09 532.77" class="st3"/>
+		</g>
+		<g id="shape30-104" v:mID="30" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-268.869)">
+			<title>动态连接线.30</title>
+			<path d="M4.96 503.43 L5.3 503.54 L115.17 536.71" class="st3"/>
+		</g>
+		<g id="shape31-111" v:mID="31" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-183.829)">
+			<title>动态连接线.31</title>
+			<path d="M0 501.93 L-114.69 536.57" class="st5"/>
+		</g>
+		<g id="shape33-117" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(200.044,-183.829)">
+			<title>动态连接线.33</title>
+			<path d="M7.09 501.93 L7.09 550.46" class="st5"/>
+		</g>
+		<g id="shape34-122" v:mID="34" v:groupContext="shape" v:layerMember="0" transform="translate(86.6582,-98.7901)">
+			<title>动态连接线.34</title>
+			<path d="M0 501.93 L-31.88 545.71" class="st5"/>
+		</g>
+		<g id="shape35-127" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(86.6582,-98.7901)">
+			<title>动态连接线.35</title>
+			<path d="M0 501.93 L79.8 547.6" class="st5"/>
+		</g>
+		<g id="shape37-132" v:mID="37" v:groupContext="shape" v:layerMember="0" transform="translate(327.603,-183.829)">
+			<title>动态连接线.37</title>
+			<path d="M0 501.93 L-26.42 589.49" class="st5"/>
+		</g>
+		<g id="shape38-137" v:mID="38" v:groupContext="shape" v:layerMember="0" transform="translate(327.603,-183.829)">
+			<title>动态连接线.38</title>
+			<path d="M0 501.93 L0 552.49 L31.89 552.49 L31.89 659.97 L-100.26 659.97" class="st5"/>
+		</g>
+		<g id="shape39-142" v:mID="39" v:groupContext="shape" v:layerMember="0" transform="translate(207.131,-80.6011)">
+			<title>动态连接线.39</title>
+			<path d="M0 501.93 L-30.85 528.47" class="st5"/>
+		</g>
+		<g id="shape40-147" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(79.5716,-183.829)">
+			<title>动态连接线.40</title>
+			<path d="M7.09 501.93 L7.09 532.27" class="st5"/>
+		</g>
+	</g>
+</svg>
